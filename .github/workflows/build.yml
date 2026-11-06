@@ -51,8 +51,8 @@ jobs:
               env | grep RELENG
               set +x
               echo "=== INSTALL LOCAL LIB ==="
+              dpkg -i lib/libquirc1_1.2-1+b1_arm64.deb              
               dpkg -i lib/libquirc-dev_1.2-1+b1_arm64.deb
-              dpkg -i lib/libquirc1_1.2-1+b1_arm64.deb
               echo "=== BUILD ==="
               apt-cache policy gcc-aarch64-linux-gnu
               dpkg -l | grep aarch64
