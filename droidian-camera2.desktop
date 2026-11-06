@@ -3,11 +3,12 @@
 [Desktop Entry]
 Version=1.2
 Type=Application
-Name=Camera
-Exec=/usr/bin/droidian-camera
-TryExec=/usr/bin/droidian-camera
-Icon=droidian-camera
+Name=Camera2
+Exec=/usr/bin/droidian-camera2
+TryExec=/usr/bin/droidian-camera2
+Icon=droidian-camera2
 Terminal=false
 StartupNotify=false
-Comment=Camera
+Comment=Camera2
 Categories=AudioVideo;Video;Photography;
+Name[fr_FR]=droidian-camera2.desktop

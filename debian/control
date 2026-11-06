@@ -1,4 +1,4 @@
-Source: droidian-camera
+Source: droidian-camera2
 Section: graphics
 Priority: optional
 Maintainer: Alexander Rutz <alex@familyrutz.com>
@@ -23,7 +23,7 @@ Build-Depends:
 Standards-Version: 4.6.0
 Homepage: https://github.com/droidian/droidian-camera
 
-Package: droidian-camera
+Package: droidian-camera2
 Architecture: any
 Depends:
   ${shlibs:Depends},

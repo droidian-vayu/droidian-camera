@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project (droidian-camera LANGUAGES C CXX)
+project (droidian-camera2 LANGUAGES C CXX)
 
 set(CMAKE_AUTOMOC ON)
 
@@ -43,7 +43,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ${SWSCALE_INCLUDE_DIR}
     ${QUIRC_INCLUDE_DIRS})
 
-target_link_libraries(droidian-camera PRIVATE
+target_link_libraries(droidian-camera2 PRIVATE
     Qt6::Core
     Qt6::Gui
     Qt6::Qml
@@ -64,7 +64,7 @@ target_link_libraries(droidian-camera PRIVATE
 )
 
 install(TARGETS ${PROJECT_NAME} DESTINATION /usr/bin)
-install(FILES ${CMAKE_SOURCE_DIR}/droidian-camera.desktop DESTINATION /usr/share/applications)
-install(FILES ${CMAKE_SOURCE_DIR}/droidian-camera.svg DESTINATION /usr/share/icons)
+install(FILES ${CMAKE_SOURCE_DIR}/droidian-camera2.desktop DESTINATION /usr/share/applications)
+install(FILES ${CMAKE_SOURCE_DIR}/droidian-camera2.svg DESTINATION /usr/share/icons)
 install(FILES ${CMAKE_SOURCE_DIR}/droidian-qr.desktop DESTINATION /usr/share/applications)
 install(FILES ${CMAKE_SOURCE_DIR}/droidian-qr.png DESTINATION /usr/share/icons)
