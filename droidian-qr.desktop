@@ -2,7 +2,7 @@
 Version=1.2
 Type=Application
 Name=Qr Scanner
-Exec=/usr/bin/droidian-camera -qr
+Exec=/usr/bin/droidian-camera2 -qr
 Icon=droidian-qr
 Terminal=false
 StartupNotify=false
